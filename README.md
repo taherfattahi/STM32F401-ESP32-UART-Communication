@@ -102,11 +102,7 @@ So the STM32 can send `"BTN: PA0 pressed\r\n"` and the ESP32 reconstructs it on 
      - If line is `"BTN: PA0 pressed"`, toggles LED state.  
      - Prints status to Serial Monitor.  
    - **handleFromPC()**  
-     - Forwards any text typed in Serial Monitor to STM32 (optional debugging).  
-
-3. **Result**  
-   - Every press of STM32 button → LED toggles ON/OFF on ESP32.  
-   - Debug messages show both STM32 lines and LED status.
+     - Forwards any text typed in Serial Monitor to STM32.  
 
 ---
 
