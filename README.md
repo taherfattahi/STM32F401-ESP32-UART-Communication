@@ -1,16 +1,14 @@
 # STM32F401 ↔ ESP32 UART Button-to-LED
 
+## Image
+  <img src="images/image.jpg" alt="Dino Game Screenshot" height="400"/>
+
 ## Overview
 **UART communication** between an **STM32F401CCU6** microcontroller and an **ESP32** development board.
 
 - A **push button** on the STM32 (PA0) is used as input.  
 - When pressed, the STM32 sends a text message (`BTN: PA0 pressed`) over **USART2 (115200 baud)**.  
-- The ESP32 receives this message and toggles its onboard **LED (GPIO2)**.  
-
-Result:  
-- **First press → LED ON**  
-- **Second press → LED OFF**  
-- and so on.
+- The ESP32 receives this message and toggles its onboard **LED (GPIO2)**. 
 
 ---
 
@@ -123,7 +121,7 @@ So the STM32 can send `"BTN: PA0 pressed\r\n"` and the ESP32 reconstructs it on 
 ### ESP32 (Arduino IDE / PlatformIO)
 1. Open Arduino IDE.  
 2. Select **ESP32 Dev Module**.  
-3. Copy the ESP32 sketch (`UART-LED-control.ino.ino`).  
+3. Copy the ESP32 sketch (`ESP32-Code/UART-LED-control.ino.ino`).  
 4. Upload to ESP32.  
 5. Open Serial Monitor @ 115200 baud.  
 
