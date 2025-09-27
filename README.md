@@ -1,6 +1,6 @@
 # STM32F401 ↔ ESP32 UART Button-to-LED
 
-## Image
+## Boards
   <img src="images/image.jpg" alt="Dino Game Screenshot" height="500"/>
 
 ## Overview
