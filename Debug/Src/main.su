@@ -1,0 +1,8 @@
+../Src/main.c:380:17:usart_brr_from	32	static
+../Src/main.c:391:13:delay_cycles	16	static,ignoring_inline_asm
+../Src/main.c:393:13:usart2_init	8	static
+../Src/main.c:420:13:usart2_write_char	16	static
+../Src/main.c:426:13:usart2_write_str	16	static
+../Src/main.c:432:13:button_init_PA0_pullup	4	static
+../Src/main.c:441:12:button_is_pressed	4	static
+../Src/main.c:448:5:main	16	static
