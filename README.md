@@ -9,6 +9,7 @@
 
 ## STM32 - ESP32
   <img src="images/image.jpg" alt="Dino Game Screenshot" height="500"/>
+  
 ---
 
 ## 🔌 What is UART?
