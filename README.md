@@ -8,8 +8,13 @@
 - The ESP32 receives this message and toggles its onboard **LED (GPIO2)**. 
 
 ## STM32 - ESP32
-  <img src="images/image.jpg" alt="Dino Game Screenshot" height="500"/>
-  
+<table>
+  <tr>
+    <td><img src="images/image.jpg" alt="STM32 board" height="300"/></td>
+    <td><img src="images/STM32F401CCU6-pinout.jpg" alt="ESP32 board" height="300"/></td>
+  </tr>
+</table>
+
 ---
 
 ## 🔌 What is UART?
