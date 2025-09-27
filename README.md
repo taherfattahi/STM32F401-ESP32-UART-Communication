@@ -1,7 +1,7 @@
 # STM32F401 ↔ ESP32 UART Button-to-LED
 
 ## Image
-  <img src="images/image.jpg" alt="Dino Game Screenshot" height="400"/>
+  <img src="images/image.jpg" alt="Dino Game Screenshot" height="500"/>
 
 ## Overview
 **UART communication** between an **STM32F401CCU6** microcontroller and an **ESP32** development board.
