@@ -1,8 +1,5 @@
 # STM32F401 ↔ ESP32 UART Button-to-LED
 
-## Boards
-  <img src="images/image.jpg" alt="Dino Game Screenshot" height="500"/>
-
 ## Overview
 **UART communication** between an **STM32F401CCU6** microcontroller and an **ESP32** development board.
 
@@ -10,6 +7,8 @@
 - When pressed, the STM32 sends a text message (`BTN: PA0 pressed`) over **USART2 (115200 baud)**.  
 - The ESP32 receives this message and toggles its onboard **LED (GPIO2)**. 
 
+## STM32 - ESP32
+  <img src="images/image.jpg" alt="Dino Game Screenshot" height="500"/>
 ---
 
 ## 🔌 What is UART?
