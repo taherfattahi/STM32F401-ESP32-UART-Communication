@@ -1,7 +1,7 @@
 # STM32F401 ↔ ESP32 UART Button-to-LED
 
 ## Overview
-**UART communication** between an **STM32F401CCU6** microcontroller and an **ESP32** development board.
+**UART communication** between an **STM32F401CCU6** microcontroller and an **ESP32** development board(bare-metal, no HAL).
 
 - A **push button** on the STM32 (PA0) is used as input.  
 - When pressed, the STM32 sends a text message (`BTN: PA0 pressed`) over **USART2 (115200 baud)**.  
